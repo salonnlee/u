@@ -1,2 +1,2 @@
-# candy
-🍬 Useful utility collection with zero dependencies
+# fireworks
+🎆 Useful utility collection with zero dependencies
