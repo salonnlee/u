@@ -1,38 +1,19 @@
 {
   "author": "huanghaijun <huanghj199512@163.com> (salonnlee.github.io)",
-  "name": "@shantaram/candy",
-  "description": "🍬 Useful utility collection with zero dependencies",
+  "name": "fireworks",
+  "description": "🎆 Useful utility collection with zero dependencies",
   "keywords": [
     "utils",
     "utilities"
   ],
   "sideEffects": false,
-  "version": "0.2.0",
-  "homepage": "https://github.com/salonnlee/candy",
+  "version": "0.0.1",
+  "homepage": "https://github.com/salonnlee/fireworks",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/salonnlee/candy.git"
+    "url": "git://github.com/salonnlee/fireworks.git"
   },
-  "main": "./src/index.js",
-  "exports": {
-    ".": {
-      "require": "./src/index.js",
-      "import": "./es/index.js",
-      "default": "./src/index.js"
-    },
-    "./es/": "./es/",
-    "./src/": "./src/",
-    "./dist/": "./dist/"
-  },
-  "module": "./es/index.js",
-  "unpkg": "dist/candy.min.js",
-  "jsdelivr": "dist/candy.min.js",
-  "files": [
-    "es",
-    "src",
-    "dist"
-  ],
   "scripts": {},
   "peerDependencies": {
     "licia": "^1.29.0",
@@ -41,7 +22,6 @@
     "ramda": "^0.27.1"
   },
   "devDependencies": {
-    "@shantaram/eslint-config-prettier": "^0.1.5",
     "eslint": "^7.24.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
